@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ================================================================== PAGE LOGIN */
+#body{
+    background: rgba(0, 0, 0, 0.6) url("../images/Background-Login.png");
+    background-blend-mode: darken;
+}
+
+/* HEADER - PAGE LOGIN */
+.logo{
+    width: 250px;
+    text-align: center;
+}
+
+/* CONTENU - PAGE LOGIN */
+.contenu{
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.input{
+    height: 50px;
+    margin-top: 25px;
+}
+
+.button{
+    background-color: rgb(255, 199, 46);
+    border-radius: 10px;
+    color: white;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    box-shadow: 0px 0px 20px black;
+}
+
+#creerCompte{
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.span{
+    font-size: 450%;
+    margin-top: 80px;
+}
+
+#msgErreur{
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+/* =================== PAGE - RÉCUPÉRER COMPTE */
+.contenuSecondaire{
+    border: 2px solid rgb(255, 199, 46);
+}
+
+.h1Style{
+    font-size: 30px;
+}
+
+.inputStyle{
+    border: 1px solid;
+}
+
+.buttonRC {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buttonRC:last-child{
+    margin-bottom: 50px;
+}
+
+#pageRecupererCompte{
+    display: none;
+}
+
+/* ============================== PAGE - CREER COMPTE */
+.h2Style{
+    font-size: 20px;
+}
+
+.formStyle{
+    height:30px;
+    margin-top: 15px;
+}
+
+.rdStyle{
+    margin-top: 25px;
+    height: 20px;
+}
+
+.rdLabel{
+    margin-top: 18px;
+    margin-left: -15px;
+    font-size: 20px;
+}
+
+.fileStyle{
+    margin-top: 20px;
+}
+
+input[type=submit]{
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+#pageFormulaire{
+    display: none;
+}
+
+#nouvelleCompte{
+    display: none;
+}
+
+.boiteCdnes{
+    border: 2px solid rgb(255, 199, 46);
+    box-shadow: 5px 8px 12px;
+    border-radius: 25px;
+}
+
+.titreProfil{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titreCdnes span{
+    color: rgb(165, 0, 0);
+}
+
+.titreCdnes div{
+    color: rgb(165, 0, 0);
+}
+
+#imgU{
+    width: 100%;
+    height: 100%;
+}
+
+.titreCdnes{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btnCdnes{
+    width: 120px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+/* ============================== FOOTER */
+.footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+.footer .copyR{
+    margin-top: 13px;
+}

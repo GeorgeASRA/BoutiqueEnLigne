@@ -1,0 +1,124 @@
+{
+    "livresInformatique" : [
+        {
+            "description" : "Réseaux informatiques",
+            "image" : "../livres/1.jpg",
+            "prix" : "89.99",
+            "details" : "Un livre pour découvrir et comprendre ce qui se cache derrière cet outil indispensable et familier!"
+        },
+        {
+            "description" : "Premiers Pas en informatique",
+            "image" : "../livres/2.jpg",
+            "prix" : "19.99",
+            "details" : "Ce livre en couleurs richement illustré va vous faire découvrir d'une manière didactique et ludique tout ce que vous pouvez faire avec votre PC."
+        },
+        {
+            "description" : "Manuel de l'autodidacte en informatique",
+            "image" : "../livres/3.jpg",
+            "prix" : "69.99",
+            "details" : "Vous souhaitez devenir développeur mais sans passer le moindre diplôme ?Apprenez l'informatique pas à pas à votre rythme en autodidacte avec cet ouvrage de vulgarisation rédigé par un autodidacte!"
+        },
+        {
+            "description" : "Le droit de l'informatique",
+            "image" : "../livres/4.jpg",
+            "prix" : "24.99",
+            "details" : "l'étude des grands thèmes du droit de l'informatique (protection des logiciels et des données, contrats informatiques, protection des libertés, gestion du risque informatique)."
+        },
+        {
+            "description" : "Développement informatique",
+            "image" : "../livres/5.jpg",
+            "prix" : "39.99",
+            "details" : "Avec ce livre, l'auteur répond aux futurs développeurs ou développeurs débutants, et leur donne les bases solides à acquérir pour leur permettre de travailler et surtout d'évoluer dans leur métier."
+        },
+        {
+            "description" : "Réseaux informatiques",
+            "image" : "../livres/1.jpg",
+            "prix" : "89.99",
+            "details" : "Un livre pour découvrir et comprendre ce qui se cache derrière cet outil indispensable et familier!"
+        },
+        {
+            "description" : "Premiers Pas en informatique",
+            "image" : "../livres/2.jpg",
+            "prix" : "19.99",
+            "details" : "Ce livre en couleurs richement illustré va vous faire découvrir d'une manière didactique et ludique tout ce que vous pouvez faire avec votre PC."
+        },
+        {
+            "description" : "Manuel de l'autodidacte en informatique",
+            "image" : "../livres/3.jpg",
+            "prix" : "69.99",
+            "details" : "Vous souhaitez devenir développeur mais sans passer le moindre diplôme ?Apprenez l'informatique pas à pas à votre rythme en autodidacte avec cet ouvrage de vulgarisation rédigé par un autodidacte!"
+        },
+        {
+            "description" : "Le droit de l'informatique",
+            "image" : "../livres/4.jpg",
+            "prix" : "39.99",
+            "details" : "l'étude des grands thèmes du droit de l'informatique (protection des logiciels et des données, contrats informatiques, protection des libertés, gestion du risque informatique)."
+        },
+        {
+            "description" : "Développement informatique",
+            "image" : "../livres/5.jpg",
+            "prix" : "39.99",
+            "details" : "Avec ce livre, l'auteur répond aux futurs développeurs ou développeurs débutants, et leur donne les bases solides à acquérir pour leur permettre de travailler et surtout d'évoluer dans leur métier."
+        },
+        {
+            "description" : "Réseaux informatiques",
+            "image" : "../livres/1.jpg",
+            "prix" : "89.99",
+            "details" : "Un livre pour découvrir et comprendre ce qui se cache derrière cet outil indispensable et familier!"
+        },
+        {
+            "description" : "Premiers Pas en informatique",
+            "image" : "../livres/2.jpg",
+            "prix" : "19.99",
+            "details" : "Ce livre en couleurs richement illustré va vous faire découvrir d'une manière didactique et ludique tout ce que vous pouvez faire avec votre PC."
+        },
+        {
+            "description" : "Manuel de l'autodidacte en informatique",
+            "image" : "../livres/3.jpg",
+            "prix" : "69.99",
+            "details" : "Vous souhaitez devenir développeur mais sans passer le moindre diplôme ?Apprenez l'informatique pas à pas à votre rythme en autodidacte avec cet ouvrage de vulgarisation rédigé par un autodidacte!"
+        },
+        {
+            "description" : "Le droit de l'informatique",
+            "image" : "../livres/4.jpg",
+            "prix" : "39.99",
+            "details" : "l'étude des grands thèmes du droit de l'informatique (protection des logiciels et des données, contrats informatiques, protection des libertés, gestion du risque informatique)."
+        },
+        {
+            "description" : "Développement informatique",
+            "image" : "../livres/5.jpg",
+            "prix" : "39.99",
+            "details" : "Avec ce livre, l'auteur répond aux futurs développeurs ou développeurs débutants, et leur donne les bases solides à acquérir pour leur permettre de travailler et surtout d'évoluer dans leur métier."
+        },
+        {
+            "description" : "Réseaux informatiques",
+            "image" : "../livres/1.jpg",
+            "prix" : "89.99",
+            "details" : "Un livre pour découvrir et comprendre ce qui se cache derrière cet outil indispensable et familier!"
+        },
+        {
+            "description" : "Premiers Pas en informatique",
+            "image" : "../livres/2.jpg",
+            "prix" : "19.99",
+            "details" : "Ce livre en couleurs richement illustré va vous faire découvrir d'une manière didactique et ludique tout ce que vous pouvez faire avec votre PC."
+        },
+        {
+            "description" : "Manuel de l'autodidacte en informatique",
+            "image" : "../livres/3.jpg",
+            "prix" : "69.99",
+            "details" : "Vous souhaitez devenir développeur mais sans passer le moindre diplôme ?Apprenez l'informatique pas à pas à votre rythme en autodidacte avec cet ouvrage de vulgarisation rédigé par un autodidacte!"
+        },
+        {
+            "description" : "Le droit de l'informatique",
+            "image" : "../livres/4.jpg",
+            "prix" : "39.99",
+            "details" : "l'étude des grands thèmes du droit de l'informatique (protection des logiciels et des données, contrats informatiques, protection des libertés, gestion du risque informatique)."
+        },
+        {
+            "description" : "Développement informatique",
+            "image" : "../livres/5.jpg",
+            "prix" : "39.99",
+            "details" : "Avec ce livre, l'auteur répond aux futurs développeurs ou développeurs débutants, et leur donne les bases solides à acquérir pour leur permettre de travailler et surtout d'évoluer dans leur métier."
+        }
+    ]
+}

@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*================================ HEADER */
+.header{
+    background-color: rgb(255, 199, 46);
+    height: 80px;
+    position: fixed;
+    z-index: 2;
+}
+
+.logoBC img{
+    width: 100px;
+    cursor: pointer;
+}
+
+.logoHeader img{
+    width: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.menuPrimaire{
+    list-style-type: none;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.itemNiveau1{
+    display: inline;
+    padding: 3% 3%;
+    cursor: pointer;
+}
+
+.sousMenu{
+    list-style-type: none;
+    position: absolute;
+    width: 230px;
+    margin-left: 5%;
+    display: none;
+}
+
+.itemNiveau1:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.itemNiveau1:hover>ul{
+    display: block;
+}
+
+.itemNiveau2{
+    background-color: rgb(253, 215, 108);
+    border: 2px solid rgb(255, 199, 46);
+    padding: 5px 20px;
+}
+
+.itemNiveau2:hover{
+    background-color: rgb(255, 236, 184);
+    border: 2px solid rgb(165, 0, 0);
+}
+
+.rechercher{
+    height: 35px;
+    width: 80%;
+    margin-top: 22px;
+    border-radius: 25px;
+}
+
+#idItem{
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 35px;
+    background-color: rgb(165, 0, 0);
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#menuCelullaire{
+    position: absolute;
+    top: 80px;
+    left: -15px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+#navMenuCel:hover #menuCelullaire{
+    display: block;
+}
+
+.menuCel{
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.itemNiveauA{
+    padding: 20px;
+    background-color: rgb(253, 215, 108);
+    border: 2px solid rgb(255, 199, 46);
+}
+
+.itemNiveauA:hover{
+    background-color: rgb(255, 229, 159);
+}
+
+.itemNiveauA:hover>ul{
+    display: block;
+}
+
+.itemNiveauB{
+    background-color: rgb(253, 215, 108);
+    border: 2px solid rgb(255, 199, 46);
+    padding: 5px 20px;
+}
+
+.itemNiveauB:hover{
+    background-color: rgb(255, 236, 184);
+    border: 2px solid rgb(165, 0, 0);
+}
+
+.sousMenuA{
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* ================================ PAGE ACCUEIL */
+#pageAccueil{
+    padding-top: 100px ;
+}
+
+#idImage{
+    margin-top: 30px;
+    width: 100%;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.flecheCarrousel{
+    width: 50%;
+    margin-top: 125px;
+    cursor: pointer;
+}
+
+.imgArticle img{
+    width: 90%;
+}
+
+.titleArticle{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.separateur{
+    margin: 2% auto;
+    width: 95%;
+    height: 1px;
+    background-color: black;
+}
+
+/* ================================ PAGE - LIVRES INFORMATIQUE */
+#pageInformatique{
+    padding-top: 140px ;
+    display: none;
+}
+/* BARRE MENU */
+.menuBarre{
+    padding: 0;
+    width: 230px;
+    list-style: none;
+    text-align: center;
+    border: 2px solid rgb(255, 199, 46);
+    margin-left: 50px;
+    font-size: 20px;
+    position: fixed;
+}
+
+.itemBarre{
+    padding: 12px;
+    border-bottom: 1px solid rgb(255, 199, 46);
+    font-weight: 500;
+}
+
+.itemBarre:hover{
+    background-color: rgb(255, 199, 46);
+    box-shadow: 0 0 20px;
+    cursor: pointer;
+}
+
+.titreCategorie{
+    background-color: rgb(165, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+
+/* PAGE LIVRES INFORMATIQUE */
+.titreLivres{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(165, 0, 0);
+    margin-bottom: 20px;
+}
+
+.item img{
+    padding: 5px 0;
+    width: 90%;
+    height: 230px;
+}
+
+.item{
+    text-align: center;
+    border: 2px solid rgb(255, 199, 46);
+    border-radius: 25px;
+    margin-top: 25px;
+    height: 370px;
+    position: relative;
+}
+
+.ajouter{
+    background-color: rgb(165, 0, 0);
+    width: 60%;
+    height: 30px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.ajouter:hover{
+    background-color: rgb(165, 0, 0, 0.6);
+}
+.ajouter:active{
+    border: 2px solid black;
+}
+
+.prix{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(165, 0, 0);
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+/* BOUTIQUE LIVRES GÉOGRAPHIE */
+#pageGeographie{
+    padding-top: 140px ;
+    display: none;
+}
+
+/* ZONE AFFICHER DETAIL */
+#zoneDetail, #zoneDetailGeo{
+    position: fixed;
+    background-color: white;
+    border: 5px solid rgb(255, 199, 46);
+    border-radius: 25px;
+    top: 180px;
+    right: 0;
+    left: 0;
+    box-shadow: 0 0 20px;
+    display: none;
+}
+
+#petitEntete, #petitEnteteGeo{
+    background-color: rgb(255, 199, 46);
+    height: 40px;
+    border-radius: 18px 18px 0 0;
+}
+
+#fermerDetail, #fermerDetailGeo{
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: white;
+    padding: 0 10px 5px; 
+    border-radius: 0 18px 0 0;
+    float: right;
+    margin-right: -12px;
+}
+
+#fermerDetail:hover, #fermerDetailGeo:hover{
+    background-color: rgba(255, 255,255, 0.5);
+}
+
+#afficherImage, #afficherImageGeo{
+    width: 300px;
+    height: 350px;
+    margin: 20px 0;
+}
+
+#zoneDetailGauche, #zoneDetailGaucheGeo{
+    margin-top: 20px;
+}
+
+.titreZAD{
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#afficherDescription, #afficherDescriptionGeo{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#afficherDetail, #afficherDetailGeo{
+    font-weight: 200;
+}
+
+#afficherPrix, #afficherPrixGeo{
+    color: rgb(165, 0, 0);
+    font-size: 25px;
+}
+
+#txtQte, #txtQteGeo{
+    width: 45px;
+}
+
+#unAjout, #unAjoutGeo{
+    background-color: rgb(165, 0, 0);
+    height: 30px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#unAjout:hover, #unAjoutGeo:hover{
+    background-color: rgb(165, 0, 0, 0.6);
+}
+
+#unAjout:active, #unAjoutGeo:active{
+    border: 2px solid black;
+}
+
+/* PAGE CONTACT */
+#pageContact{
+    padding-top: 140px;
+    display: none;
+}
+
+#mSucc{
+    background-color: rgb(255, 199, 46);
+}
+
+#maCarte{
+    height: 45vh;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.divMap{
+    border: 2px solid rgb(255, 199, 46);
+    padding: 30px 0;
+}
+
+.divMap div{
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.titreSucc{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#contactContruction{
+    display: none;
+}
+
+/* PAGE CONSTRUCTION */
+#pageConstruction{
+    padding-top: 140px ;
+    display: none;
+}
+.imgConst{
+    text-align: center;
+    border: 2px solid rgb(255, 199, 46);
+    width: 80%;
+    margin: 40px auto;
+}
+
+.imgConst img{
+    margin: 50px 0;
+}
+
+/* ================================ PAGE PANIER VIDE */
+#panierVide{
+    padding-top: 140px;
+    text-align: center;
+    display: none;
+}
+
+#panierItems{
+    padding-top: 140px;
+    display: none;
+}
+
+.panierImg{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.btnMagasiner{
+    width: 230px;
+    height: 50px;
+    background-color: rgb(165, 0, 0);
+    border-radius: 10px;
+    color: white;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.btnMagasiner:hover{
+    background-color: rgb(165, 0, 0, 0.6);
+}
+
+/* ================================ PAGE PANIER ITEMS */
+.tableauItems{
+    border: 2px solid rgb(255, 199, 46);
+}
+
+.tableauPanier{
+    margin-top: 30px;
+}
+
+.imgStyle{
+    width: 50px;
+    height: 100px;
+    margin: 5px 0px;
+}
+
+.thItems{
+    width: 5%;
+    height: 40px;
+    background-color: rgb(165, 0, 0);
+    color: white;
+}
+
+.prixItem{
+    color: rgb(165, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tBody{
+    border: 2px solid rgb(255, 199, 46);
+}
+
+.tBody td{
+    padding: 10px 4%;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.tBody span{
+    color: rgb(165, 0, 0);
+}
+
+#qteItems{
+    font-size: 25px;
+}
+
+.btnQteDroit{
+    background-color: rgb(255, 199, 46);
+    padding: 0 8px;
+    margin-left: 8px;
+    border-radius: 0 25px 25px 0;
+    font-weight: bold;
+}
+
+.btnQteGauche{
+    background-color: rgb(255, 199, 46);
+    padding: 0 5px;
+    margin-right: 8px;
+    border-radius: 25px 0 0 25px;
+    font-weight: bold;
+}
+
+#idMontantTotal{
+    font-weight: bold;
+}
+.tableauPrix{
+    width: 80%;
+    border: 2px solid rgb(255, 199, 46);
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.btnSupprimer{
+    background-color: rgb(165, 0, 0) ;
+    font-size: 15px;
+    color: white;
+    border-radius: 25px;
+    padding: 0 5px;
+}
+
+.btnSupprimer:hover{
+    background-color: rgb(165, 0, 0, 0.6);
+}
+
+.btnPayer{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.inputElement{
+    width: 50px;
+    text-align: center;
+    border-color: rgb(255, 199, 46);
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: large;
+}
+/* ================================ FOOTER */
+
+.footer{
+    background-color: rgb(58, 57, 57);
+    color: white;
+}
+
+.menuFooter{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.subMenuF{
+    margin: 0;
+}

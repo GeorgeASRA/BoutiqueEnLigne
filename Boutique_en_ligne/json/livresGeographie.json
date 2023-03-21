@@ -1,0 +1,124 @@
+{
+    "livresGeographie" : [
+        {
+            "description" : "Les défis d'un monde en transition",
+            "image" : "../livres/1geo.jpg",
+            "prix" : "45.99",
+            "details" : "Une grande diversité de contenus : articles et dessins de presse, de nombreuses cartes (cartes repères, cartes Enjeux, cartes interactives)."
+        },
+        {
+            "description" : "Histoire Géographie",
+            "image" : "../livres/2geo.jpg",
+            "prix" : "32.99",
+            "details" : "Des manuels tout-en-un avec des liens entre les 3 disciplines Histoire, Geographie et EMC, pour donner du sens aux apprentissages."
+        },
+        {
+            "description" : "Livre du professeur",
+            "image" : "../livres/3geo.jpg",
+            "prix" : "59.99",
+            "details" : "Le livre du professeur Géographie Terminale permet un gain de temps précieux et vous accompagne pour vos cours et leur préparation."
+        },
+        {
+            "description" : "Géographie Term L, ES",
+            "image" : "../livres/4geo.jpg",
+            "prix" : "29.99",
+            "details" : "Un manuel respectueux de votre liberté pédagogique - Un manuel qui vous permet d'aborder le programme en variant les approches : études de cas au choix, exemples..."
+        },
+        {
+            "description" : "Géographie Term 2020",
+            "image" : "../livres/5geo.jpg",
+            "prix" : "39.99",
+            "details" : "SPECIAL BAC : - 40 pages pour préparer les épreuves communes de contrôle continu : méthodes, sujets guidés, sujets blancs..."
+        },
+        {
+            "description" : "Les défis d'un monde en transition",
+            "image" : "../livres/1geo.jpg",
+            "prix" : "45.99",
+            "details" : "Une grande diversité de contenus : articles et dessins de presse, de nombreuses cartes (cartes repères, cartes Enjeux, cartes interactives)."
+        },
+        {
+            "description" : "Histoire Géographie",
+            "image" : "../livres/2geo.jpg",
+            "prix" : "32.99",
+            "details" : "Des manuels tout-en-un avec des liens entre les 3 disciplines Histoire, Geographie et EMC, pour donner du sens aux apprentissages."
+        },
+        {
+            "description" : "Livre du professeur",
+            "image" : "../livres/3geo.jpg",
+            "prix" : "59.99",
+            "details" : "Le livre du professeur Géographie Terminale permet un gain de temps précieux et vous accompagne pour vos cours et leur préparation."
+        },
+        {
+            "description" : "Géographie Term L, ES",
+            "image" : "../livres/4geo.jpg",
+            "prix" : "29.99",
+            "details" : "Un manuel respectueux de votre liberté pédagogique - Un manuel qui vous permet d'aborder le programme en variant les approches : études de cas au choix, exemples..."
+        },
+        {
+            "description" : "Géographie Term 2020",
+            "image" : "../livres/5geo.jpg",
+            "prix" : "39.99",
+            "details" : "SPECIAL BAC : - 40 pages pour préparer les épreuves communes de contrôle continu : méthodes, sujets guidés, sujets blancs..."
+        },
+        {
+            "description" : "Les défis d'un monde en transition",
+            "image" : "../livres/1geo.jpg",
+            "prix" : "45.99",
+            "details" : "Une grande diversité de contenus : articles et dessins de presse, de nombreuses cartes (cartes repères, cartes Enjeux, cartes interactives)."
+        },
+        {
+            "description" : "Histoire Géographie",
+            "image" : "../livres/2geo.jpg",
+            "prix" : "32.99",
+            "details" : "Des manuels tout-en-un avec des liens entre les 3 disciplines Histoire, Geographie et EMC, pour donner du sens aux apprentissages."
+        },
+        {
+            "description" : "Livre du professeur",
+            "image" : "../livres/3geo.jpg",
+            "prix" : "59.99",
+            "details" : "Le livre du professeur Géographie Terminale permet un gain de temps précieux et vous accompagne pour vos cours et leur préparation."
+        },
+        {
+            "description" : "Géographie Term L, ES",
+            "image" : "../livres/4geo.jpg",
+            "prix" : "29.99",
+            "details" : "Un manuel respectueux de votre liberté pédagogique - Un manuel qui vous permet d'aborder le programme en variant les approches : études de cas au choix, exemples..."
+        },
+        {
+            "description" : "Géographie Term 2020",
+            "image" : "../livres/5geo.jpg",
+            "prix" : "39.99",
+            "details" : "SPECIAL BAC : - 40 pages pour préparer les épreuves communes de contrôle continu : méthodes, sujets guidés, sujets blancs..."
+        },
+        {
+            "description" : "Les défis d'un monde en transition",
+            "image" : "../livres/1geo.jpg",
+            "prix" : "45.99",
+            "details" : "Une grande diversité de contenus : articles et dessins de presse, de nombreuses cartes (cartes repères, cartes Enjeux, cartes interactives)."
+        },
+        {
+            "description" : "Histoire Géographie",
+            "image" : "../livres/2geo.jpg",
+            "prix" : "32.99",
+            "details" : "Des manuels tout-en-un avec des liens entre les 3 disciplines Histoire, Geographie et EMC, pour donner du sens aux apprentissages."
+        },
+        {
+            "description" : "Livre du professeur",
+            "image" : "../livres/3geo.jpg",
+            "prix" : "59.99",
+            "details" : "Le livre du professeur Géographie Terminale permet un gain de temps précieux et vous accompagne pour vos cours et leur préparation."
+        },
+        {
+            "description" : "Géographie Term L, ES",
+            "image" : "../livres/4geo.jpg",
+            "prix" : "29.99",
+            "details" : "Un manuel respectueux de votre liberté pédagogique - Un manuel qui vous permet d'aborder le programme en variant les approches : études de cas au choix, exemples..."
+        },
+        {
+            "description" : "Géographie Term 2020",
+            "image" : "../livres/5geo.jpg",
+            "prix" : "39.99",
+            "details" : "SPECIAL BAC : - 40 pages pour préparer les épreuves communes de contrôle continu : méthodes, sujets guidés, sujets blancs..."
+        }
+    ]
+}
